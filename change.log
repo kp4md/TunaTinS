@@ -1,0 +1,35 @@
+/*
+ * The Tuna Tin S
+ * by Bob Fontana AK3Y
+ * 
+ * Revised 15 April 2021 by Carol Milazzo KP4MD
+ *   -- Corrected Calibration Offset application to 60m
+ * Revised 12 April 2021 by Carol Milazzo KP4MD
+ *   -- added 160m, 17m and 12m and their default frequencies
+ *   -- Corrected Calibration Offset to work for all bands except 60m
+ * Revised 09 April 2021 by Carol Milazzo KP4MD
+ *   -- added default QRP frequencies and band switching for 80, 40, 60, 30, 20, 15 and 10 meters
+ *   -- added additional tuning steps (Band change, 10 kHz, 1 kHz, 100Hz, 10 Hz)
+ *   -- added band indicator to display
+ * Revised 27 March 2021
+ *   -- added provision for 5 fixed frequency CW channels on 60 meters
+ *   -- fixed EEProm code so that header changes to Band will trigger rewrite
+ * Revised 24 February 2021
+ *   -- added timing loop to EEPROM write; current settings will not be written to nonvolatile
+ *   -- memory until DELAY_TIME has been exceeded.  This prevents too many writes to EEPROM which
+ *   -- can only handle around 100,000 writes
+ * Revised 21 February 2021
+ *   -- added EEPROM storage of last used frequency and tuning rate (loads upon reboot)
+ *   -- Note: if only tuning rate is changed, data is not stored
+ * Revised 12 December 2020
+ *   -- added an additional tuning increment (10Hz, 100Hz and 1000Hz)
+ *   -- pressing switch toggles from 1000 --> 100 --> 10 --> 1000 Hz
+ * Revised 10 December 2020
+ *   -- added 30 meters to frequency bands
+ *   -- modified display to indicate tuning rate
+ * Revised 3 March 2020 -- added Transmit/Receive function to kill synthesizer output on Receive
+ * Revised 25 February 2020 -- added Calibration Offset
+ *   -- Note: calibration offset should be computed for each band of operation
+ * 
+ * 12 February 2020
+ */
