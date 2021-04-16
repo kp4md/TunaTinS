@@ -1,4 +1,4 @@
-This is the procedure to calibrate the Tuna Tin S to compensate for variation in the Si5351 reference crystal frequency.
+This is the procedure to calibrate the Tuna Tin S to compensate for variation in the Si5351 reference crystal frequency.  Versions 12APR21 and later.
 
 1. Open the sketch in the Arduino IDE, edit the initial value of Calibrate_Offset to zero, const long Calibrate_Offset = 0; upload the sketch to the Arduino and run it. 
 2. Set the Tuna Tin S (TTS) band to 30m and the frequency to 10000.00 kHz.  (This procedure will work on any frequency but is very easy using the 10 MHz WWV frequency standard). 
