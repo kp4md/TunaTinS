@@ -2,11 +2,13 @@
  * The Tuna Tin S
  * by Bob Fontana AK3Y
  * 
+ * Revised 01 January 2022 by Carol Milazzo KP4MD
+ *   -- added 630m & 6m
+ *   -- cleaned up code and moved band constants into arrays 
+ *   -- new PLL constants improve freq tracking on 60m and 12m
  * Revised 15 April 2021 by Carol Milazzo KP4MD
- *   -- Corrected Calibration Offset application to 60m
- * Revised 12 April 2021 by Carol Milazzo KP4MD
- *   -- added 160m, 17m and 12m and their default frequencies
- *   -- Corrected Calibration Offset to work for all bands except 60m
+ *   -- added 160m, 17m and 12m
+ *   -- corrected Calibration Offset for all bands
  * Revised 09 April 2021 by Carol Milazzo KP4MD
  *   -- added default QRP frequencies and band switching for 80, 40, 60, 30, 20, 15 and 10 meters
  *   -- added additional tuning steps (Band change, 10 kHz, 1 kHz, 100Hz, 10 Hz)
