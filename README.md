@@ -8,7 +8,7 @@ The original code is accessible to ARRL members in the http://www.arrl.org/qst-i
 The transmitter is comprised of two circuits: 
 an Arduino Nano microcontroller driving an Si5351 frequency synthesizer module with an OLED digital frequency readout and
 an IRF510 RF amplifier with a low pass filter.  The typical power output is 0.5 watts.
-A low pass filter determines the usable operating frequency range, one of the several high frequency bands from 1.8 through 28 MHz.
+The low pass filter component values determine the usable operating frequency range, one of the several amateur radio frequency bands from 472 kHz through 50 MHz.
 
 The original code set up the Si5351 module on the default frequency.  
 An encoder switch allowed selection of frequency and tuning steps within one band.
