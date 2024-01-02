@@ -28,7 +28,7 @@ Procedure for Frequency Calibration with the TunaTinS_v2.1.0_Calibration Arduino
 1. Download and run the TunaTinS_v2.1.0_Calibration sketch.  
 2. Tune a receiver to WWV on 10 MHz or to another 10 MHz frequency reference (or measure with a frequency counter).
 3. Adjust the Tuna Tin S encoder to zero beat the Si5351 signal against the 10 MHz reference signal.
-4. Read and record the ppb value from the first line of the OLED display.
+4. Read and record the ppb value from the first line of the OLED display. https://github.com/kp4md/TunaTinS/blob/main/IMG_5873.JPG
 5. Open the TunaTinS_v2.1.0 sketch in the Arduino IDE.
 6. Go to Line 59 and replace the 0 with your calculated ppb value.
 const long ppb = 0;  // Substitute this zero with your parts per billion Si5351 frequency reference error here
