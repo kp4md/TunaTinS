@@ -1,3 +1,5 @@
+31 December 2023 - The procedure described below is now superseded by the TunaTinS_v2.1.0_Calibration Arduino sketch for the TunaTinS_v2.1.0 Arduino sketch and subsequent releases.
+
 This is the procedure to calibrate the Tuna Tin S to compensate for variation in the Si5351 reference crystal frequency.  Versions 12APR21 and later.
 
 1. Open the sketch in the Arduino IDE, edit the initial value of Calibrate_Offset to zero, const long Calibrate_Offset = 0; upload the sketch to the Arduino and run it. 
