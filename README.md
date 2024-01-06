@@ -13,6 +13,7 @@ The original Arduino sketch code set up the Si5351 module for operation within o
 An encoder switch allowed selection of frequency and tuning steps within that one band. 
 
 The Arduino IDE requires installation of the Adafruit SSD1306 (Adafruit_SSD1306.h) and the Adafruit Si5351 (Adafruit_SI5351.h) Libraries to compile this sketch. 
+Starting with v2.1.0, NT7S's Etherkit Si5351 library replaced the Adafruit Si5351 library.
 The Arduino Nano Upload Procedure is posted at https://groups.io/g/DIYRadio/message/186
 
 The 31 December 2023 TunaTinS_v2.1.0 Arduino sketch release includes the following changes since the v2.0.0 release:
