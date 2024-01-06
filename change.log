@@ -2,7 +2,15 @@
  * The Tuna Tin S
  * by Bob Fontana AK3Y
  * 
- * Revised 01 January 2022 by Carol Milazzo KP4MD
+ * Revised 31 December 2023 v2.1.0 by Carol Milazzo KP4MD
+ *   -- NT7S’s Etherkit Si5351 library replaces the Adafruit Si5351 library.
+ *   -- The Etherkit Si5351 library automates the PLL setup and offers continuous RF spectrum coverage from 4 kHz through 225 MHz.
+ *   -- The Si5351 synthesizer now covers 15 amateur radio frequency bands with presets for QRP calling frequencies from 137 kHz (2200m) through 222 MHz (1.25m).
+ *   -- Use the encoder control to adjust either the frequency or the tuning steps. Depress the control to alternate its mode between digit select and digit adjust.
+ *   -- The tuning steps are now: Band change, 1 MHz, 100 kHz, 10 kHz, 1 kHz, 100 Hz, 10 Hz and 1 Hz, in either direction.
+ *   -- You can now correct for Si5351 frequency reference crystal error to within 1 Hz at 10 MHz. 
+ *   -- The companion TunaTinS_v2.1.0_Calibration sketch calculates and displays the parts per billion (ppb) crystal frequency correction factor.
+ * Revised 01 January 2022 v2.0.0 by Carol Milazzo KP4MD
  *   -- added 630m & 6m
  *   -- cleaned up code and moved band constants into arrays 
  *   -- new PLL constants improve freq tracking on 60m and 12m
