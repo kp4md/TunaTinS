@@ -16,7 +16,7 @@ The Arduino IDE requires installation of the Adafruit SSD1306 (Adafruit_SSD1306.
 Starting with v2.1.0, NT7S's Etherkit Si5351 library (https://github.com/etherkit/Si5351Arduino) replaced the Adafruit Si5351 library.
 The Arduino Nano Upload Procedure is posted at https://groups.io/g/DIYRadio/message/186
 
-The 31 December 2023 TunaTinS_v2.1.0 Arduino sketch release includes the following changes since the v2.0.0 release:
+The 31 December 2023 TunaTinS_v2.1.0 Arduino sketch release https://github.com/kp4md/TunaTinS/releases/tag/v2.1.0 includes the following changes since the v2.0.0 release:
 
 1. NT7S’s Etherkit Si5351 library replaces the Adafruit Si5351 library.
 2. The Etherkit Si5351 library automates the PLL setup and offers continuous RF spectrum coverage from 4 kHz through 225 MHz.
@@ -36,7 +36,7 @@ const long ppb = 0;  // Substitute this zero with your parts per billion Si5351 
 7. Save the edited sketch and upload it to your Arduino.
 8. It is normal to observe 2-3 Hz frequency drift over time due to temperature variation.
 
-The 01 January 2022 sketch release v2.0.0 is posted at https://github.com/kp4md/TunaTinS/releases/tag/v2.0.0-beta and includes the following updates since the 15APR21 release:
+The previous 01 January 2022 sketch release v2.0.0 added the following updates since the 15APR21 release:
 
 1. 630 meter and 6 meter bands have been added. The Si5351 synthesizer now covers 12 amateur frequency bands from 472 kHz through 50 MHz.
 2. 45 lines have been eliminated by moving the band constants into arrays and cleaning up the code. The compiled program size is now 23204 bytes.
