@@ -25,7 +25,7 @@ The 31 December 2023 TunaTinS_v2.1.0 Arduino sketch release https://github.com/k
 5. The tuning steps are now: Band change, 1 MHz, 100 kHz, 10 kHz, 1 kHz, 100 Hz, 10 Hz and 1 Hz, in either direction. 
 6. You can now correct for Si5351 frequency reference crystal error to within 1 Hz at 10 MHz.  The companion TunaTinS_v2.1.0_Calibration sketch calculates and displays the parts per billion (ppb) crystal frequency correction factor (the third argument in the Etherkit Si5351 library’s si5351.init(SI5351_CRYSTAL_LOAD_8PF, 0, 0); command).
 
-Procedure for Frequency Calibration with the TunaTinS_v2.1.0_Calibration Arduino sketch
+Procedure for Frequency Calibration with the TunaTinS_v2.1.0_Calibration Arduino sketch https://github.com/kp4md/TunaTinS/blob/main/TunaTinS_v2.1.0_Calibration.ino
 1. Download and run the TunaTinS_v2.1.0_Calibration sketch.  
 2. Tune a receiver to WWV on 10 MHz or to another 10 MHz frequency reference (or measure with a frequency counter).
 3. Adjust the Tuna Tin S encoder to zero beat the Si5351 signal against the 10 MHz reference signal.
