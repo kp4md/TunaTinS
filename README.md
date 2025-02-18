@@ -51,7 +51,7 @@ The previous 01 January 2022 sketch release v2.0.0 added the following updates s
 3. New PLL setup constants improve frequency tracking on the 5 MHz, 10 MHz and 24 MHz bands.
 
 ## Video Demonstration of Arduino Sketch 
-https://www.youtube.com/watch?v=qvt9tF0a9zI 
+[https://www.youtube.com/watch?v=qvt9tF0a9zI ](https://img.youtube.com/vi/qvt9tF0a9zI/0.jpg)
 
 Please contact our team via https://groups.io/g/DIYRadio or mailto://contact@n6na.org if you wish to:
 1. Report a bug
