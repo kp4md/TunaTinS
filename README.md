@@ -23,6 +23,8 @@ The Upload Procedure for the libraries and sketches is posted at https://groups.
 
 # TunaTinS_v2.2 Arduino Nano Sketch
 
+# [Click here for the Full User Instruction Manual in the Wiki](https://github.com/kp4md/TunaTinS/wiki)
+
 ## Required Libraries 
 Use the Arduino IDE Library Manager to install the [Adafruit SSD_1306 library](https://github.com/adafruit/Adafruit_SSD1306) and NT7S's [Etherkit Si5351 library](https://github.com/etherkit/Si5351Arduino) before compiling this sketch.
 
