@@ -8,8 +8,8 @@ The transmitter is comprised of two circuits:
 1. an Arduino Nano microcontroller driving an Si5351 frequency synthesizer module with a 128x64 pixel OLED digital frequency readout and
 2. an IRF510 MOSFET RF power amplifier with a low pass filter.  The typical power output is 0.5 watts.
 
-The Tuna Tin S transmitter requires distinct band pass filters for operation on each of multiple frequency bands.  
-See https://shop.qrp-labs.com/LPF for some low pass filter options and https://shop.qrp-labs.com/kits/ULPF for a filter switching board kit.
+The Tuna Tin S transmitter requires a distinct bandpass filter for operation on each frequency band. 
+A filter design tool is available at [Class E Design Spreadsheet](https://4sqrp.com/resource/classie/classie.html) or [this spreadsheet](https://docs.google.com/spreadsheets/d/1SyXx_rcVZvYHGLNGJtvW9o1FNvxYuF-3/).
 
 ## Original Arduino Nano Sketch
 The original Arduino sketch code set up the Si5351 module for operation within one frequency band. 
