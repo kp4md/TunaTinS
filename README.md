@@ -21,7 +21,7 @@ The Arduino IDE originally required installation of the Adafruit SSD1306 (Adafru
 replaced the Adafruit Si5351 library.
 The Upload Procedure for the libraries and sketches is posted at https://groups.io/g/DIYRadio/message/186
 
-# TunaTinS_v2.2 Arduino Nano Sketch
+# [TunaTinS_v2.2 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/download/v2.2/TunaTinS_v2.2.ino)
 
 # [Click here for the Full User Instruction Manual in the Wiki](https://github.com/kp4md/TunaTinS/wiki)
 
