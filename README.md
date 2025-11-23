@@ -54,7 +54,7 @@ The Tuna Tin S v2.2 is a compact, Arduino-based QRP transmitter with:
 
 1. NT7S’s Etherkit Si5351 library replaces the Adafruit Si5351 library in the original sketch.  This Etherkit Si5351 library automates the PLL setup and offers continuous RF spectrum coverage from 4 kHz through 225 MHz.
 2. The Si5351 synthesizer covers all 15 amateur radio frequency bands with presets for QRP calling frequencies from 137 kHz (2200m) through 222 MHz (1.25m).  
-3. The encoder serves multiple functions.  Rotation adjusts a frequency digit or step size.  A quick tap alternates the encoder between digit select and digit adjust modes.  A medium press (0.5-2s) toggles between normal operating mode and calibration mode.  A long press (>2s) saves the displayed frequency as a user-defined startup frequency (in normal mode) or saves the displayed ppb crystal correction factor (in calibration node) into non-volatile EEPROM.
+3. The encoder serves multiple functions:  **Rotation** adjusts a frequency digit or step size.  **A quick tap (<0.5s)** alternates the encoder between digit select and digit adjust modes.  **A medium press (0.5-2s)** toggles between normal operating mode and calibration mode.  **A long press (>2s)** saves the displayed frequency as a user-defined startup frequency (in normal mode) or saves the displayed ppb crystal correction factor (in calibration node) into non-volatile EEPROM.
 4. The tuning steps are now: Band change, 1 MHz, 100 kHz, 10 kHz, 1 kHz, 100 Hz, 10 Hz and 1 Hz, in either direction.  The 60m band tuning steps through the USA's five discrete 5 MHz channels.
 5. The integrated frequency calibration function permits setting the crystal correction factor to 0.1 ppm and saves it into non-volatile EEPROM.
 
