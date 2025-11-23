@@ -4,7 +4,7 @@ Arduino Nano sketch for Bob Fontana AK3Y's Tuna Tin S QRPp CW Transmitter
 This code is used with the Tuna Tin S, a low power amateur radio radiotelegraphy (CW) transmitter designed by Bob Fontana, AK3Y. 
 The full circuit description and construction details are published in December 2020 QST Journal with an update in the September 2022 issue https://www.arrl.org/qst . 
 
-The transmitter is comprised of two circuits: 
+The transmitter is comprised of two circuits: [See Hardware Diagrams](https://github.com/kp4md/TunaTinS/wiki/Hardware-Diagrams)
 1. an Arduino Nano microcontroller, an EC11 (KY-040) rotary encoder with push-button, an Si5351 frequency synthesizer module, a 128x64 pixel OLED digital frequency readout; and,
 2. an IRF510 MOSFET RF power amplifier with a low pass filter.  The typical power output is 0.5 watts.
 
@@ -15,9 +15,9 @@ A filter design tool is available at [Class E Design Spreadsheet](https://4sqrp.
 The original Arduino sketch code set up the Si5351 module for operation within one frequency band. 
 An encoder switch allowed selection of frequency and tuning steps within that one band. 
 The author's original Arduino sketch codes are accessible to ARRL members in the https://www.arrl.org/qst-in-depth archive for December 2020. 
-The updated Arduino sketch is based on Fontana's original code with the enhancements enumerated below.
+This updated Arduino sketch is based on Fontana's original code with the enhancements enumerated below.
 
-The Arduino IDE originally required installation of the Adafruit SSD1306 (Adafruit_SSD1306.h) and the Adafruit Si5351 (Adafruit_SI5351.h) Libraries to compile this sketch. 
+The original sketch required installation of the Adafruit SSD1306 (Adafruit_SSD1306.h) and the Adafruit Si5351 (Adafruit_SI5351.h) Libraries into the Arduino IDE for compilation. 
 
 # [Download TunaTinS_v2.2 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/download/v2.2/TunaTinS_v2.2.ino)
 
