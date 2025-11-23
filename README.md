@@ -26,7 +26,7 @@ The Arduino IDE originally required installation of the Adafruit SSD1306 (Adafru
 ## Required Libraries 
 Use the Arduino IDE Library Manager to install the [Adafruit SSD_1306 library](https://github.com/adafruit/Adafruit_SSD1306) and NT7S's [Etherkit Si5351 library](https://github.com/etherkit/Si5351Arduino) before compiling this sketch. The Upload Procedure for the libraries and sketch is posted [in the Wiki](https://github.com/kp4md/TunaTinS/wiki/Arduino-Upload-Procedure)
 
-## TunaTinS_v2.2 Features:
+## TunaTinS_v2.2 Update Features:
 
 **TunaTinS v2.2 is a significantly innovative update for Arduino Nano VFO sketches.**
 
@@ -37,6 +37,8 @@ This new Arduino Nano code itself calculates, stores and applies the 0.1 ppm cry
 Variations in the Si5351's quartz crystal tolerance can typically cause an output frequency error of up to 1 or 2 kHz. After calibration, your Si5351 VFO frequency will be accurate to within 0.1 ppm over its entire 4 kHz to 255 MHz range, e.g., within 1 Hz at 10 MHz.
 
 This sketch controls the Tuna Tin S transmitter frequencies and also allows the Si5351 to serve as a low-level signal source (Variable Frequency Oscillator) of very good accuracy continuously variable from 4 kHz through 225 MHz. The code is deeply optimized for memory size and execution speed .
+
+## Overview:
 
 The Tuna Tin S v2.2 is a compact, Arduino-based QRP transmitter with:
 1. Si5351 frequency synthesizer
