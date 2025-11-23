@@ -6,9 +6,7 @@ The full circuit description and construction details are published in December 
 
 The transmitter is comprised of two circuits: [See Hardware Diagrams](https://github.com/kp4md/TunaTinS/wiki/Hardware-Diagrams)
 1. an Arduino Nano microcontroller, an EC11 (KY-040) rotary encoder with push-button, an Si5351 frequency synthesizer module, a 128x64 pixel OLED digital frequency readout; and,
-2. an IRF510 MOSFET RF power amplifier with a low pass filter.  The typical power output is 0.5 watts.
-
-The Tuna Tin S transmitter requires a distinct bandpass filter for operation on each frequency band. 
+2. an IRF510 MOSFET RF power amplifier with a 7 MHz Class E output filter network.  The typical power output is 0.5 watts.  A distinct output filter is required for operation on each frequency band. 
 A filter design tool is available at [Class E Design Spreadsheet](https://4sqrp.com/resource/classie/classie.html) or [this spreadsheet](https://docs.google.com/spreadsheets/d/1SyXx_rcVZvYHGLNGJtvW9o1FNvxYuF-3/).
 
 ## Original Arduino Nano Sketch
