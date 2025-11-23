@@ -28,7 +28,7 @@ Use the Arduino IDE Library Manager to install the [Adafruit SSD_1306 library](h
 
 **TunaTinS v2.2 is a significantly innovative update for Arduino Nano VFO sketches.**
 
-Combining frequency calibration into the main Arduino code and storing the correction factor into non-volatile memory greatly simplifies setting the frequency accuracy of the Si5351. This innovation eliminates the past tedious process of loading a separate calibration program, calculating the correction factor, and manually editing, recompiling and uploading the code.
+Combining frequency calibration into the main Arduino code and storing the correction factor into non-volatile memory greatly simplifies setting the frequency accuracy of the Si5351. This innovation eliminates the past tedious process that required loading a separate calibration program, calculating the correction factor, and manually editing, recompiling and uploading the code.
 
 This new Arduino Nano code itself calculates, stores and applies the 0.1 ppm crystal correction factor to the VFO program. The user accomplishes all this using the rotary encoder and a frequency counter or an accurate 10 MHz frequency reference like WWV and a receiver. This is a significant improvement over other published Arduino Si5351 VFO sketches.
 
