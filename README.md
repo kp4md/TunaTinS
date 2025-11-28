@@ -28,13 +28,17 @@ Use the Arduino IDE Library Manager to install the [Adafruit SSD_1306 library](h
 
 **TunaTinS v2.2 is a significantly innovative update for Arduino Nano VFO sketches.**
 
-Combining frequency calibration into the main Arduino code and storing the correction factor into non-volatile memory greatly simplifies and reduces possible errors in setting the frequency accuracy of the Si5351. This innovation eliminates the past tedious process that required loading a separate calibration program, calculating the correction factor, and manually editing, recompiling and uploading the code.
+Variations in the Si5351's quartz crystal tolerance can typically cause an output frequency error of up to 1 or 2 kHz at HF frequencies. Other published Arduino VFO sketches describe a frequency calibration procedure that requires measuring the difference of the Si5351 quartz crystal or output frequency and its programmed frequency and [manually calculating the correction factor](https://lloydm.net/Demos/Si5351.html); 
 
-This new Arduino Nano code itself calculates, stores and applies the 0.1 ppm crystal correction factor to the VFO program. The user accomplishes all this using the rotary encoder and a frequency counter or an accurate 10 MHz frequency reference like WWV and a receiver. This is a significant improvement over other published Arduino Si5351 VFO sketches.
+> **_Correction Factor (PPB) = (Measured Frequency - Programmed Frequency)/Programmed Frequency x 1,000,000,000_**
 
-Variations in the Si5351's quartz crystal tolerance can typically cause an output frequency error of up to 1 or 2 kHz. After calibration, your Si5351 VFO frequency will be accurate to within 0.1 ppm over its entire 4 kHz to 255 MHz range, e.g., within 1 Hz at 10 MHz.
+or uploading [a separate Si5351 calibration sketch](https://github.com/etherkit/Si5351Arduino/tree/master/examples/si5351_calibration) that determines the correction factor using keyboard input to tune the Si5351 until its output matches a reference frequency.  In both cases, the procedure usually requires the inconvenience of loading another sketch into the Arduino IDE, manually editing the correction factor, recompiling, and uploading the VFO code into the Arduino, all of which can introduce errors.   
 
-This sketch controls the Tuna Tin S transmitter frequencies and also allows the Si5351 to serve as a low-level signal source (Variable Frequency Oscillator) of very good accuracy continuously variable from 4 kHz through 225 MHz. The code is deeply optimized for memory size and execution speed .
+The better practice described here eliminates those extra tasks and increases user convenience by incorporating the frequency calibration calculations and storage into the main VFO sketch with the addition of: a few variables; several lines of code; and storing the ppb correction factor in non-volatile EEPROM memory.  The user can now calibrate the Si5351 frequency to 0.1 ppm using the rotary encoder and a receiver tuned to WWV or other accurate 10 MHz frequency standard or a frequency counter and save it to non-volatile memory with a button push. This is a significant improvement over other published Arduino Si5351 VFO sketches.
+
+After calibration, your Si5351 VFO frequency will be accurate to within 0.1 ppm over its entire 4 kHz to 255 MHz range, e.g., within 1 Hz at 10 MHz.  Variations in ambient temperature can also cause [a frequency drift of about 1-2 Hz](https://www.qsl.net/zl1bpu/DOCS/The%20Denwood%20Matchbox%20Oven%203.pdf) at HF frequencies.
+
+This sketch controls the Tuna Tin S transmitter frequencies and also allows the Si5351 to serve as a low-level signal source (Variable Frequency Oscillator) of very good accuracy continuously variable from 4 kHz through 225 MHz. This code update is deeply optimized for memory size and execution speed.
 
 ## Overview:
 
