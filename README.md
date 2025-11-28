@@ -1,10 +1,10 @@
-# TunaTinS QRP Transmitter
-Arduino Nano sketch for Bob Fontana AK3Y's Tuna Tin S QRPp CW Transmitter 
+# Arduino Nano Si5351 VFO Sketch TunaTinS_v2.2 with 10 MHz Calibration
+Arduino Nano sketch for for Si5351 VFO and Bob Fontana AK3Y's Tuna Tin S QRPp CW Transmitter 
 
-This code is used with the Tuna Tin S, a low power amateur radio radiotelegraphy (CW) transmitter designed by Bob Fontana, AK3Y. 
+This Arduino Nano Si5351 VFO code designed for the Tuna Tin S, a low power amateur radio radiotelegraphy (CW) transmitter designed by Bob Fontana, AK3Y, can also be used for a general purpose variable frequency oscillator.
 The full circuit description and construction details are published in December 2020 QST Journal with an update in the September 2022 issue https://www.arrl.org/qst . 
 
-The transmitter is comprised of two circuits: [See Hardware Diagrams](https://github.com/kp4md/TunaTinS/wiki/Hardware-Diagrams)
+The Tuna Tin S transmitter is comprised of two circuits: [See Hardware Diagrams](https://github.com/kp4md/TunaTinS/wiki/Hardware-Diagrams)
 1. an Arduino Nano microcontroller, an EC11 (KY-040) rotary encoder with push-button, an Si5351 frequency synthesizer module, a 128x64 pixel OLED digital frequency readout; and,
 2. an IRF510 MOSFET RF power amplifier with a 7 MHz Class E output filter network.  The typical power output is 0.5 watts.  A distinct output filter is required for operation on each frequency band. 
 The NMØS Class E filter design tool is available at [Class E Design Spreadsheet](https://4sqrp.com/resource/classie/classie.html) or [this spreadsheet](https://docs.google.com/spreadsheets/d/1SyXx_rcVZvYHGLNGJtvW9o1FNvxYuF-3/).
