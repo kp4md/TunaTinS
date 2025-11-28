@@ -38,7 +38,7 @@ The better practice described here eliminates those extra tasks and increases us
 
 After calibration, your Si5351 VFO frequency will be accurate to within 0.1 ppm over its entire 4 kHz to 255 MHz range, e.g., within 1 Hz at 10 MHz.  Variations in ambient temperature can also cause [a frequency drift of about 1-2 Hz](https://www.qsl.net/zl1bpu/DOCS/The%20Denwood%20Matchbox%20Oven%203.pdf) at HF frequencies.
 
-This sketch controls the Tuna Tin S transmitter frequencies and also allows the Si5351 to serve as a general purpose low-level signal source (Variable Frequency Oscillator) of very good accuracy continuously variable from 4 kHz through 225 MHz. This code update is deeply optimized for memory size and execution speed.
+This sketch allows the Si5351 to serve as a general purpose low-level signal source of 0.1 ppm accuracy (secondary frequency standard) continuously variable from 4 kHz through 225 MHz. This code update is deeply optimized for memory size and execution speed.
 
 ## Overview:
 
