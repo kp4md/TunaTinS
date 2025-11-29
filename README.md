@@ -17,7 +17,7 @@ This updated Arduino sketch is based on Fontana's original code with the enhance
 
 The original sketch required installation of the Adafruit SSD1306 (Adafruit_SSD1306.h) and the Adafruit Si5351 (Adafruit_SI5351.h) Libraries into the Arduino IDE for compilation. 
 
-# [Download TunaTinS_v2.2.1 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/download/v2.2.1/TunaTinS_v2.2.1.ino))
+# [Download TunaTinS_v2.2.1 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/download/v2.2.1/TunaTinS_v2.2.1.ino)
 
 # [Click here for the Full User Instruction Manual in the Wiki](https://github.com/kp4md/TunaTinS/wiki)
 
