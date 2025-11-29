@@ -1,4 +1,4 @@
-# Arduino Nano Si5351 VFO Sketch TunaTinS_v2.2 with 10 MHz Calibration
+# Arduino Nano Si5351 VFO Sketch TunaTinS_v2.2.1 with 10 MHz Calibration
 Arduino Nano sketch for for Si5351 VFO and Bob Fontana AK3Y's Tuna Tin S QRPp CW Transmitter 
 
 This Arduino Nano Si5351 VFO code designed for the Tuna Tin S, a low power amateur radio radiotelegraphy (CW) transmitter designed by Bob Fontana, AK3Y, can also be used for a general purpose variable frequency oscillator.
@@ -17,16 +17,16 @@ This updated Arduino sketch is based on Fontana's original code with the enhance
 
 The original sketch required installation of the Adafruit SSD1306 (Adafruit_SSD1306.h) and the Adafruit Si5351 (Adafruit_SI5351.h) Libraries into the Arduino IDE for compilation. 
 
-# [Download TunaTinS_v2.2 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/download/v2.2/TunaTinS_v2.2.ino)
+# [Download TunaTinS_v2.2.1 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/download/v2.2.1/TunaTinS_v2.2.1.ino))
 
 # [Click here for the Full User Instruction Manual in the Wiki](https://github.com/kp4md/TunaTinS/wiki)
 
 ## Required Libraries 
 Use the Arduino IDE Library Manager to install the [Adafruit SSD_1306 library](https://github.com/adafruit/Adafruit_SSD1306) and NT7S's [Etherkit Si5351 library](https://github.com/etherkit/Si5351Arduino) before compiling this sketch. The Upload Procedure for the libraries and sketch is posted [in the Wiki](https://github.com/kp4md/TunaTinS/wiki/Arduino-Upload-Procedure)
 
-## TunaTinS_v2.2 Update Features:
+## TunaTinS_v2.2.1 Update Features:
 
-**TunaTinS v2.2 is a significantly innovative update for Arduino Nano VFO sketches.**
+**TunaTinS v2.2.1 is a significantly innovative update for Arduino Nano VFO sketches.**
 
 Variations in the Si5351's quartz crystal tolerance can typically cause an output frequency error of up to 1 or 2 kHz at HF frequencies. Other published Arduino VFO sketches describe a frequency calibration procedure that requires measuring the difference of the Si5351 quartz crystal or output frequency and its programmed frequency and [manually calculating the correction factor](https://lloydm.net/Demos/Si5351.html); 
 
@@ -42,9 +42,9 @@ This sketch allows the Si5351 to serve as a general purpose low-level signal sou
 
 ## Overview:
 
-The Tuna Tin S v2.2 is a compact, Arduino-based QRP transmitter with:
+The Tuna Tin S v2.2.1 is a compact, Arduino-based QRP transmitter with:
 1. Si5351 frequency synthesizer
-2. OLED display (128×64, Adafruit SSD1306)
+2. OLED display (128×64, SSD1306)
 3. EC11 (KY-040) rotary encoder with push-button
 4. TR switch input for transmit mode
 5. In addition to controlling the Tuna Tin S transmitter frequencies, the software allows the Si5351 to serve as a low-level signal source (VFO) continuously variable from 4 kHz through 225 MHz.
