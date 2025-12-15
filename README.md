@@ -1,4 +1,4 @@
-# Arduino Nano Si5351 VFO Sketch TunaTinS_v2.2.1 with 10 MHz Calibration
+# Arduino Nano Si5351 VFO Sketch TunaTinS_v2.3.0 with 10 MHz Calibration and Keyer
 Arduino Nano sketch for for Si5351 VFO and Bob Fontana AK3Y's Tuna Tin S QRPp CW Transmitter 
 
 This Arduino Nano Si5351 VFO code designed for the Tuna Tin S, a low power amateur radio radiotelegraphy (CW) transmitter designed by Bob Fontana, AK3Y, can also be used for a general purpose variable frequency oscillator.
@@ -17,7 +17,7 @@ This updated Arduino sketch is based on Fontana's original code with the enhance
 
 The original sketch required installation of the Adafruit SSD1306 (Adafruit_SSD1306.h) and the Adafruit Si5351 (Adafruit_SI5351.h) Libraries into the Arduino IDE for compilation. 
 
-# [Download TunaTinS_v2.2.1 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/download/v2.2.1/TunaTinS_v2.2.1.ino)
+# [Download TunaTinS_v2.3.0 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/tag/v2.3.0)
 
 # [Click here for the Full User Instruction Manual in the Wiki](https://github.com/kp4md/TunaTinS/wiki)
 
@@ -26,7 +26,7 @@ Use the Arduino IDE Library Manager to install the [Adafruit SSD_1306 library](h
 
 ## TunaTinS_v2.2.1 Update Features:
 
-**TunaTinS v2.2.1 is a significantly innovative update for Arduino Nano VFO sketches.**
+**TunaTinS v2.3.0 is a significantly innovative update for Arduino Nano VFO sketches.**
 
 Variations in the Si5351's quartz crystal tolerance can typically cause an output frequency error of up to 1 or 2 kHz at HF frequencies. Other published Arduino VFO sketches describe a frequency calibration procedure that requires measuring the difference of the Si5351 quartz crystal or output frequency and its programmed frequency and [manually calculating the correction factor](https://lloydm.net/Demos/Si5351.html); 
 
@@ -40,17 +40,18 @@ After calibration, your Si5351 VFO frequency will be accurate to within 0.1 ppm,
 
 ## Overview:
 
-The Tuna Tin S v2.2.1 is a compact, Arduino-based QRP transmitter with:
+The Tuna Tin S v2.3.0 is a compact, Arduino-based QRP telegraphy transmitter with:
 1. Si5351 frequency synthesizer
 2. OLED display (128×64, SSD1306)
 3. EC11 (KY-040) rotary encoder with push-button
 4. TR switch input for transmit mode
-5. In addition to controlling the Tuna Tin S transmitter frequencies, the software allows the Si5351 to serve as a low-level signal source (VFO) continuously variable from 4 kHz through 225 MHz.
-6. The software incorporates a frequency calibration mode that can achieve 0.1 ppm accuracy over that frequency range. The calibration factor is stored in non-volatile EEPROM memory.
-7. Each of the 15 amateur radio frequency bands defaults to its QRP CW calling frequency upon power up.
-8. Each frequency band retains its last used frequency in memory while powered up.
-9. The user may define and store a default startup frequency in non-volatile memory.
-10. The frequency calibration factor (ppb) and the user-defined default startup frequency are stored in EEPROM memory that retains the data even when the power is off.
+5. Straight key or iambic keyer adjustable from 8 wpm to 40 wpm.
+6. In addition to controlling the Tuna Tin S transmitter frequencies, the software allows the Si5351 to serve as a low-level signal source (VFO) continuously variable from 4 kHz through 225 MHz.
+7. The software incorporates a frequency calibration mode that can achieve 0.1 ppm accuracy over that frequency range. The calibration factor is stored in non-volatile EEPROM memory.
+8. Each of the 15 amateur radio frequency bands defaults to its QRP CW calling frequency upon power up.
+9. Each frequency band retains its last used frequency in memory while powered up.
+10. The user may define and store a default startup frequency in non-volatile memory.
+11. The frequency calibration factor (ppb) and the user-defined default startup frequency are stored in EEPROM memory that retains the data even when the power is off.
 
 ## Notes
 
@@ -60,17 +61,17 @@ The Tuna Tin S v2.2.1 is a compact, Arduino-based QRP transmitter with:
 4. The tuning steps are now: Band change, 1 MHz, 100 kHz, 10 kHz, 1 kHz, 100 Hz, 10 Hz and 1 Hz, in either direction.  The 60m band tuning steps through the USA's five discrete 5 MHz channels.
 5. The integrated frequency calibration function permits setting the crystal correction factor to 0.1 ppm and saves it into non-volatile EEPROM.
 
-# v2.2 Normal Frequency Digit Adjust Encoder Mode Display
+# v2.3.0 Normal Frequency Digit Adjust Encoder Mode Display
 ![IMG_6380](https://github.com/user-attachments/assets/f7a71ea2-53a9-4267-b229-0b39b1cc8147)
 
-# v2.2 60m Channel Mode Display
+# v2.3.0 60m Channel Mode Display
 ![IMG_6381](https://github.com/user-attachments/assets/42a05b56-4e52-48e6-a4d4-1823ebae2ba6)
 
-# v2.2 Calibration Mode Display
+# v2.3.0 Calibration Mode Display
 ![IMG_6385](https://github.com/user-attachments/assets/850a116f-f182-494f-a300-6aad101853b3)
 
-## Video Demonstration of Arduino Nano Sketch v2.0.0 (an older version)
-[![Tuna Tin S Arduino Sketch v2.0.0 Demo](https://img.youtube.com/vi/qvt9tF0a9zI/0.jpg)](https://www.youtube.com/watch?v=qvt9tF0a9zI)
+## Video Demonstration of Arduino Nano Sketch v2.3.0
+[![Tuna Tin S Arduino Sketch v2.3.0 Demo](https://img.youtube.com/vi/lrAfUIrIkaY/0.jpg)](https://www.youtube.com/watch?v=lrAfUIrIkaY)
 
 Please contact our team via https://groups.io/g/DIYRadio or mailto://contact@n6na.org if you wish to:
 1. Report a bug
