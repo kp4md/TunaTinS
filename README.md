@@ -24,7 +24,7 @@ The original sketch required installation of the Adafruit SSD1306 (Adafruit_SSD1
 ## Required Libraries 
 Use the Arduino IDE Library Manager to install the [Adafruit SSD_1306 library](https://github.com/adafruit/Adafruit_SSD1306) and NT7S's [Etherkit Si5351 library](https://github.com/etherkit/Si5351Arduino) before compiling this sketch. The Upload Procedure for the libraries and sketch is posted [in the Wiki](https://github.com/kp4md/TunaTinS/wiki/Arduino-Upload-Procedure)
 
-## TunaTinS_v2.2.1 Update Features:
+## TunaTinS_v2.3.0 Update Features:
 
 **TunaTinS v2.3.0 is a significantly innovative update for Arduino Nano VFO sketches.**
 
