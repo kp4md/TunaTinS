@@ -1,4 +1,4 @@
-# Arduino Nano Si5351 VFO Sketch TunaTinS_v2.3.0 with 10 MHz Calibration and Keyer
+# Arduino Nano Si5351 VFO Sketch TunaTinS_v2.3.1 with 10 MHz Calibration and Keyer
 Arduino Nano sketch for for Si5351 VFO and Bob Fontana AK3Y's Tuna Tin S QRPp CW Transmitter 
 
 This Arduino Nano Si5351 VFO code designed for the Tuna Tin S, a low power amateur radio radiotelegraphy (CW) transmitter designed by Bob Fontana, AK3Y, can also be used for a general purpose variable frequency oscillator.
@@ -17,16 +17,16 @@ This updated Arduino sketch is based on Fontana's original code with the enhance
 
 The original sketch required installation of the Adafruit SSD1306 (Adafruit_SSD1306.h) and the Adafruit Si5351 (Adafruit_SI5351.h) Libraries into the Arduino IDE for compilation. 
 
-# [Download TunaTinS_v2.3.0 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/tag/v2.3.0)
+# [Download TunaTinS_v2.3.1 Arduino Nano Sketch](https://github.com/kp4md/TunaTinS/releases/tag/v2.3.0)
 
 # [Click here for the Full User Instruction Manual in the Wiki](https://github.com/kp4md/TunaTinS/wiki)
 
 ## Required Libraries 
 Use the Arduino IDE Library Manager to install the [Adafruit SSD_1306 library](https://github.com/adafruit/Adafruit_SSD1306) and NT7S's [Etherkit Si5351 library](https://github.com/etherkit/Si5351Arduino) before compiling this sketch. The Upload Procedure for the libraries and sketch is posted [in the Wiki](https://github.com/kp4md/TunaTinS/wiki/Arduino-Upload-Procedure)
 
-## TunaTinS_v2.3.0 Update Features:
+## TunaTinS_v2.3.1 Update Features:
 
-**TunaTinS v2.3.0 is a significantly innovative update for Arduino Nano VFO sketches.**
+**TunaTinS v2.3.1 is a significantly innovative update for Arduino Nano VFO sketches.**
 
 Variations in the Si5351's quartz crystal tolerance can typically cause an output frequency error of up to 1 or 2 kHz at HF frequencies. Other published Arduino VFO sketches describe a frequency calibration procedure that requires measuring the difference of the Si5351 quartz crystal or output frequency and its programmed frequency and [manually calculating the correction factor](https://lloydm.net/Demos/Si5351.html); 
 
@@ -40,7 +40,7 @@ After calibration, your Si5351 VFO frequency will be accurate to within 0.1 ppm,
 
 ## Overview:
 
-The Tuna Tin S v2.3.0 is a compact, Arduino-based QRP telegraphy transmitter with:
+The Tuna Tin S v2.3.1 is a compact, Arduino-based QRP telegraphy transmitter with:
 1. Si5351 frequency synthesizer
 2. OLED display (128×64, SSD1306)
 3. EC11 (KY-040) rotary encoder with push-button
