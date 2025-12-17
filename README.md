@@ -62,11 +62,11 @@ The Tuna Tin S v2.3.1 is a compact, Arduino-based QRP telegraphy transmitter wit
 4. The tuning steps are now: Band change, 1 MHz, 100 kHz, 10 kHz, 1 kHz, 100 Hz, 10 Hz and 1 Hz, in either direction.  The 60m band tuning steps through the USA's five discrete 5 MHz channels.
 5. The integrated frequency calibration function permits setting the crystal correction factor to 0.1 ppm and saves it into non-volatile EEPROM.
 
-# v2.3.0 Normal Frequency Digit Adjust Encoder Mode Display
-![IMG_6380](https://github.com/user-attachments/assets/f7a71ea2-53a9-4267-b229-0b39b1cc8147)
+# v2.3.1 Normal Frequency Digit Adjust Encoder Mode Display
+![IMG_6380](https://github.com/kp4md/TunaTinS/blob/main/IMG_6420.JPG)
 
-# v2.3.0 60m Channel Mode Display
-![IMG_6381](https://github.com/user-attachments/assets/42a05b56-4e52-48e6-a4d4-1823ebae2ba6)
+# v2.3.1 60m Channel Mode Display
+![IMG_6381](https://github.com/kp4md/TunaTinS/blob/main/IMG_6417.JPG)
 
 # v2.3.0 Calibration Mode Display
 ![IMG_6385](https://github.com/user-attachments/assets/850a116f-f182-494f-a300-6aad101853b3)
