@@ -41,18 +41,19 @@ After calibration, your Si5351 VFO frequency will be accurate to within 0.1 ppm,
 ## Overview:
 
 The Tuna Tin S v2.3.1 is a compact, Arduino-based QRP telegraphy transmitter with:
-1. Si5351 frequency synthesizer
-2. OLED display (128×64, SSD1306)
-3. EC11 (KY-040) rotary encoder with push-button
-4. TR switch input for transmit mode
+1. Si5351 frequency synthesizer.
+2. OLED display (128×64, SSD1306).
+3. EC11 (KY-040) rotary encoder with push-button.
+4. TR switch input for transmit mode.
 5. Straight key or iambic keyer adjustable from 8 wpm to 40 wpm.
-6. In addition to controlling the Tuna Tin S transmitter frequencies, the software allows the Si5351 to serve as a low-level signal source (VFO) continuously variable from 4 kHz through 225 MHz.
-7. The software incorporates a frequency calibration mode that can achieve 0.1 ppm accuracy over that frequency range. The calibration factor is stored in non-volatile EEPROM memory.
-8. Starting with version 2.3.1 the 60 meter band can be accessed as either discrete channels or the WRC-15 5351.5 - 5366.5 kHz band.
-9. Each of the 15 amateur radio frequency bands defaults to its QRP CW calling frequency upon power up.
-10. Each frequency band retains its last used frequency in memory while powered up.
-11. The user may define and store a default startup frequency in non-volatile memory.
-12. The frequency calibration factor (ppb) and the user-defined default startup frequency are stored in EEPROM memory that retains the data even when the power is off.
+6. 700 Hz sidetone available from Arduino Nano pin D9.
+7. In addition to controlling the Tuna Tin S transmitter frequencies, the software allows the Si5351 to serve as a low-level signal source (VFO) continuously variable from 4 kHz through 225 MHz.
+8. The software incorporates a frequency calibration mode that can achieve 0.1 ppm accuracy over that frequency range. The calibration factor is stored in non-volatile EEPROM memory.
+9. Starting with version 2.3.1 the 60 meter band can be accessed as either discrete channels or the WRC-15 5351.5 - 5366.5 kHz band.
+10. Each of the 15 amateur radio frequency bands defaults to its QRP CW calling frequency upon power up.
+11. Each frequency band retains its last used frequency in memory while powered up.
+12. The user may define and store a default startup frequency in non-volatile memory.
+13. The frequency calibration factor (ppb) and the user-defined default startup frequency are stored in EEPROM memory that retains the data even when the power is off.
 
 ## Notes
 
